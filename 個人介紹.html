@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Popovers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+   
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+            </div>
+            <div class="col-md-4"></div>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                點開有海邊
+            </button>
+                <p>我是何佳蘭目前就讀靜宜大學資管系四年級，以下有我的攝影作品以及興趣、愛店介紹。</p>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">海邊</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <img class="img-fluid" src="image/img014.jpg">
+                            <p> Be an ocean- beautiful, mysterious, wild, and free.<p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+
+            <div class="col-12  col-md-5">
+
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img class="img-fluid" src="image/01.jpg" alt="Los Angeles">
+                        <div class="carousel-caption">
+                            <h3><font face="標楷體">綠色的茄子</font></h3>
+
+                            <p>This is the eggplant my dad grows.!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="image/02.jpg" alt="Chicago ">
+                        <div class="carousel-caption">
+                            <h3><font face="標楷體">紅色的草莓</font></h3>
+                            <p>This is my favorite fruit- strawberry.!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="image/03.jpg" alt="New York">
+                        <div class="carousel-caption">
+                            <h3><font face="標楷體">灰綠色的石蓮花</font></h3>
+                            <p>This is a houseleek!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+    <div class="container mt-3">
+        <h3>圖片解說</h3>
+                <p>以上是我的小小攝影作品，我非常喜歡植物能帶給人療癒能量。</p>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                        我的興趣-攝影
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <img src="image/99.jpg" width="280" height="250" />
+                        我的興趣是攝影，喜歡拍立得相機還有膠卷相機，目前擁有一台富士sq6拍立得以及Lomo拍立得;sq6拍立得拍起來的底片是正方形的，Lomo拍立得拍出來的大小相較於一般市面上的拍立得較小張，我認為拍立得能記錄當下的回憶且紙本照片又富有一種特別的味道。
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                        愛店-又又美
+
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <img src="image/10.jpg" width="180" height="250" />
+                        又又美是一家位於台南的底片相機店，店內除了底片相機相關產品，還提供了攝影服務以及餐點服務，店內的一、二樓都有可以讓人拍網美照的地方，整體而言是ＣＰ值很高的店。
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                        喜歡的美食-小北家
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <img src="image/101.jpg" width="180" height="250" />
+                        小北家是一家位於台南的餐點店，不能提前預約只能現場候位，建議一定要提早去不然會等很久，我曾經等了兩個小時，不過附近離國華街以及永樂市場很近，可以先去逛逛，推薦小北家的雞腿排套餐很好吃。
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <button onclick="history.back()">返回</button>
+
+    <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })</script>
+
+
+</body>
+</html>
